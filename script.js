@@ -20,5 +20,6 @@ box4.addEventListener('click',()=>{
 })
 function onbtnclick(){
     let txt=document.getElementById("texte").value
-    document.getElementById('header').innerText='Hello,'+txt
+    document.getElementById('header').innerText='Hello, '+txt
+
 }
